@@ -9,5 +9,6 @@ namespace L01P02_2019_MZ_602.Models
         public DbSet<usuarios> usuarios { get; set; }   
         public DbSet<publicaciones> publicaciones { get; set; } 
         public DbSet<calificaciones> calificaciones { get; set; }
+        public DbSet<comentarios> comentarios { get; set; } 
     }
 }
