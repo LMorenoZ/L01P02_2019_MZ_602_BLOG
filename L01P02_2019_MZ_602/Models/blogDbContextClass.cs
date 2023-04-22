@@ -7,5 +7,6 @@ namespace L01P02_2019_MZ_602.Models
         public blogDbContextClass(DbContextOptions options) : base(options) { } 
 
         public DbSet<usuarios> usuarios { get; set; }   
+        public DbSet<publicaciones> publicaciones { get; set; } 
     }
 }
